@@ -16,10 +16,7 @@ const AdminLayout = (props) => {
         <script src="/js/dashboard/scripts.js"></script>
         <script src="/js/dashboard/datatables-simple-demo.js"></script>
         <script src="/js/dashboard/datatables.min.js"></script>
-        <script
-          src="https://cdn.jsdelivr.net/npm/simple-datatables@latest"
-          crossOrigin="anonymous"
-        ></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest"></script>
       </Head>
       <div className="sb-nav-fixed">
         <AdminNavbar />
