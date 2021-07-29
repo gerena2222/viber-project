@@ -2,6 +2,8 @@ import Head from "next/head";
 import AdminFooter from "./admin-footer";
 import AdminNavbar from "./admin-navbar";
 import AdminSidebar from "./admin-sidebar";
+/* eslint-disable @next/next/no-sync-scripts */
+/* eslint-disable @next/next/no-css-tags */
 const AdminLayout = (props) => {
   return (
     <>
