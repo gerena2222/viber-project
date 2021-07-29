@@ -4,7 +4,7 @@ const OwlTemplate = (props) => {
   return (
     <div className="me-2 ms-2">
       <div className="card card-owl">
-        <Image
+        <img
           src={props.gambarProduk}
           className="image-card-owl owl-lazy"
           alt="produt-card"

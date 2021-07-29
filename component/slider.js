@@ -1,4 +1,3 @@
-import Image from "next/image";
 const Slider = () => {
   return (
     <section className="home-slider">
@@ -31,22 +30,22 @@ const Slider = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <Image
-              src="https://placeimg.com/1278/780/nature"
+            <img
+              src="https://res.cloudinary.com/kurogaze/image/upload/v1626442080/sample.jpg"
               className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
-            <Image
-              src="https://placeimg.com/1278/780/nature"
+            <img
+              src="https://res.cloudinary.com/kurogaze/image/upload/v1626442080/sample.jpg"
               className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
-            <Image
-              src="https://placeimg.com/1278/780/nature"
+            <img
+              src="https://res.cloudinary.com/kurogaze/image/upload/v1626442080/sample.jpg"
               className="d-block w-100"
               alt="..."
             />

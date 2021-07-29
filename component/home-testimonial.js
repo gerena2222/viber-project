@@ -1,4 +1,3 @@
-import Image from "next/image";
 const HomeTestimonial = () => {
   return (
     <section className="content2  pt-4">
@@ -11,7 +10,7 @@ const HomeTestimonial = () => {
               <div id="carousel1" className="owl-carousel">
                 <div className="item">
                   <div className="card text-center">
-                    <Image
+                    <img
                       src="https://res.cloudinary.com/kurogaze/image/upload/v1627523001/andre_zuwapz.png"
                       className="card-image-testi"
                     />

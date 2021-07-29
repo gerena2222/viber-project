@@ -2,7 +2,6 @@ import Link from "next/link";
 import prisma from "../../client.ts";
 import Heroku from "../../component/heroku-all";
 import MainLayout from "../../component/main-layout";
-import Image from "next/image";
 
 export async function getServerSideProps(contex) {
   const dataBlog = await prisma.blog.findMany();
@@ -14,7 +13,7 @@ const CardBlog = (props) => {
   return (
     <div className="col-md-4 mb-4">
       <div className="card">
-        <Image src={props.blogGambar} className="img-fluid" />
+        <img src={props.blogGambar} className="img-fluid" />
         <div className="card-body">
           <div className="row">
             <h5 className="card-title">{props.blogNama}</h5>

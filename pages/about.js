@@ -1,6 +1,5 @@
 import MainLayout from "../component/main-layout";
 import Heroku from "../component/heroku-all";
-import Image from "next/image";
 const About = () => {
   return (
     <MainLayout title="About">
@@ -10,7 +9,7 @@ const About = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="about-img">
-                <Image src="https://placeimg.com/960/780/nature" alt="Image" />
+                <img src="https://placeimg.com/960/780/nature" alt="Image" />
               </div>
             </div>
             <div className="col-lg-6">
