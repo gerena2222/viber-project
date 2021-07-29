@@ -32,14 +32,14 @@ const DetailEvent = (props) => {
           <div className="row">
             <div className="col-lg-8">
               <div className="single-content">
-                <img src={props.eventGambar} />
+                <Image src={props.eventGambar} />
                 <h2>Manfaat {props.eventNama}</h2>
                 <p>{props.eventDeskripsi}</p>
               </div>
 
               <div className="single-bio">
-                <div className="single-bio-img">
-                  <img src="https://placeimg.com/30/30/people" />
+                <div className="single-bio-image">
+                  <Image src="https://placeimg.com/30/30/people" />
                 </div>
                 <div className="single-bio-text">
                   <h3>Author Name</h3>
@@ -96,8 +96,8 @@ const DetailEvent = (props) => {
                 <div className="sidebar-widget">
                   <div className="image-widget">
                     <a href="#">
-                      <img
-                        src="https://placeimg.com/500/450/people"
+                      <Image
+                        src="https://placeImage.com/500/450/people"
                         alt="Image"
                       />
                     </a>

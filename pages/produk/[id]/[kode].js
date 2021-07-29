@@ -1,5 +1,6 @@
 import prisma from "../../../client.ts";
 import MainLayout from "../../../component/main-layout";
+import Image from "next/image";
 export async function getServerSideProps(contex) {
   let id = contex.params.id;
   let data = await prisma.produk.findUnique({
@@ -34,14 +35,14 @@ const DetailProduk = (props) => {
           <div className="row">
             <div className="col-lg-8">
               <div className="single-content">
-                <img src={props.produkGambar} />
+                <Image src={props.produkGambar} />
                 <h2>Manfaat {props.produkNama}</h2>
                 <p>{props.produkDeskripsi}</p>
               </div>
 
               <div className="single-bio">
-                <div className="single-bio-img">
-                  <img src="https://placeimg.com/30/30/people" />
+                <div className="single-bio-Image">
+                  <Image src="https://placeImage.com/30/30/people" />
                 </div>
                 <div className="single-bio-text">
                   <h3>Author Name</h3>
@@ -98,8 +99,8 @@ const DetailProduk = (props) => {
                 <div className="sidebar-widget">
                   <div className="image-widget">
                     <a href="#">
-                      <img
-                        src="https://placeimg.com/500/450/people"
+                      <Image
+                        src="https://placeImage.com/500/450/people"
                         alt="Image"
                       />
                     </a>
