@@ -1,6 +1,7 @@
 import MainLayout from "../component/main-layout";
 import Heroku from "../component/heroku-all";
 import { useForm } from "react-hook-form";
+import Image from "next/image";
 
 const AddData = (props) => {
   const {
@@ -121,7 +122,7 @@ const Mitra = () => {
           <div className="row mt-4">
             <div className="col-md-3">
               <div className="card card-shadow border-0 mb-4">
-                <img
+                <Image
                   className="card-img-top"
                   src="https://placeimg.com/200/150/tech"
                   alt="wrappixel kit"
@@ -146,7 +147,7 @@ const Mitra = () => {
 
             <div className="col-md-3">
               <div className="card card-shadow border-0 mb-4">
-                <img
+                <Image
                   className="card-img-top"
                   src="https://placeimg.com/200/150/tech"
                   alt="wrappixel kit"
@@ -170,7 +171,7 @@ const Mitra = () => {
             </div>
             <div className="col-md-3">
               <div className="card card-shadow border-0 mb-4">
-                <img
+                <Image
                   className="card-img-top"
                   src="https://placeimg.com/200/150/tech"
                   alt="wrappixel kit"
@@ -194,7 +195,7 @@ const Mitra = () => {
             </div>
             <div className="col-md-3">
               <div className="card card-shadow border-0 mb-4">
-                <img
+                <Image
                   className="card-img-top"
                   src="https://placeimg.com/200/150/tech"
                   alt="wrappixel kit"

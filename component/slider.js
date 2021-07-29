@@ -1,3 +1,4 @@
+import Image from "next/image";
 const Slider = () => {
   return (
     <section className="home-slider">
@@ -30,21 +31,21 @@ const Slider = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img
+            <Image
               src="https://placeimg.com/1278/780/nature"
               className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
-            <img
+            <Image
               src="https://placeimg.com/1278/780/nature"
               className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
-            <img
+            <Image
               src="https://placeimg.com/1278/780/nature"
               className="d-block w-100"
               alt="..."

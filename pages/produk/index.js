@@ -3,7 +3,6 @@ import prisma from "../../client.ts";
 import Heroku from "../../component/heroku-all";
 import MainLayout from "../../component/main-layout";
 import Image from "next/image";
-
 export async function getServerSideProps(contex) {
   const dataProduk = await prisma.produk.findMany();
   return {

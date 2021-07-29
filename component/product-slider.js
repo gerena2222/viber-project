@@ -1,9 +1,10 @@
 import Link from "next/link";
+import Image from "next/image";
 const OwlTemplate = (props) => {
   return (
     <div className="me-2 ms-2">
       <div className="card card-owl">
-        <img
+        <Image
           src={props.gambarProduk}
           className="image-card-owl owl-lazy"
           alt="produt-card"

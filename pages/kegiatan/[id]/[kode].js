@@ -1,5 +1,6 @@
 import prisma from "../../../client.ts";
 import MainLayout from "../../../component/main-layout";
+import Image from "next/image";
 export async function getServerSideProps(contex) {
   let id = contex.params.id;
   let data = await prisma.kegiatan.findUnique({
@@ -38,7 +39,7 @@ const DetailEvent = (props) => {
               </div>
 
               <div className="single-bio">
-                <div className="single-bio-image">
+                <div className="single-bio-img">
                   <Image src="https://placeimg.com/30/30/people" />
                 </div>
                 <div className="single-bio-text">
@@ -97,7 +98,7 @@ const DetailEvent = (props) => {
                   <div className="image-widget">
                     <a href="#">
                       <Image
-                        src="https://placeImage.com/500/450/people"
+                        src="https://placeimg.com/500/450/people"
                         alt="Image"
                       />
                     </a>

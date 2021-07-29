@@ -41,8 +41,8 @@ const DetailProduk = (props) => {
               </div>
 
               <div className="single-bio">
-                <div className="single-bio-Image">
-                  <Image src="https://placeImage.com/30/30/people" />
+                <div className="single-bio-img">
+                  <Image src="https://placeimg.com/30/30/people" />
                 </div>
                 <div className="single-bio-text">
                   <h3>Author Name</h3>
@@ -100,7 +100,7 @@ const DetailProduk = (props) => {
                   <div className="image-widget">
                     <a href="#">
                       <Image
-                        src="https://placeImage.com/500/450/people"
+                        src="https://placeimg.com/500/450/people"
                         alt="Image"
                       />
                     </a>
