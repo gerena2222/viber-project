@@ -34,11 +34,12 @@ const Events = (props) => {
   return (
     <MainLayout title="Events">
       <Heroku title="Event Kami" />
-      <section className="event-card mt-4" key={props.id}>
+      <section className="event-card mt-4">
         <div className="container">
           <div className="row">
             {props.dataEvent.map((kegiatan) => (
               <CardEvent
+                key={props.id}
                 id={kegiatan.id}
                 eventGambar={kegiatan.eventGambar}
                 eventNama={kegiatan.eventNama}

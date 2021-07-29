@@ -61,11 +61,12 @@ const Produk = (props) => {
   return (
     <MainLayout title="Produk">
       <Heroku title="Produk Kami" />
-      <section className="produk-card mt-4" key={props.id}>
+      <section className="produk-card mt-4">
         <div className="container">
           <div className="row">
             {props.dataProduk.map((produk) => (
               <CardProduk
+                key={props.id}
                 id={produk.id}
                 produkGambar={produk.produkGambar}
                 produkNama={produk.produkNama}

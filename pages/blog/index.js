@@ -41,11 +41,12 @@ const Blog = (props) => {
   return (
     <MainLayout title="Blog">
       <Heroku title="Blog Kami" />
-      <section className="blog-post mt-4" key={props.id}>
+      <section className="blog-post mt-4">
         <div className="container">
           <div className="row">
             {props.dataBlog.map((blog) => (
               <CardBlog
+                key={props.id}
                 id={blog.id}
                 blogGambar={blog.blogGambar}
                 blogNama={blog.blogNama}
