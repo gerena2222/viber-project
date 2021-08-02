@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-sync-scripts */
 /* eslint-disable @next/next/no-css-tags */
+/* eslint-disable @next/next/no-img-element*/
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {

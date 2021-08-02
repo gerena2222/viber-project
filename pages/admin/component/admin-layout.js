@@ -4,6 +4,7 @@ import AdminNavbar from "./admin-navbar";
 import AdminSidebar from "./admin-sidebar";
 /* eslint-disable @next/next/no-sync-scripts */
 /* eslint-disable @next/next/no-css-tags */
+/* eslint-disable @next/next/no-img-element: off*/
 const AdminLayout = (props) => {
   return (
     <>

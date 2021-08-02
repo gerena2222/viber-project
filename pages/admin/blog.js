@@ -4,7 +4,6 @@ import AdminLayout from "./component/admin-layout";
 import { useState } from "react";
 export async function getServerSideProps(contex) {
   const dataBlog = await prisma.blog.findMany();
-
   return {
     props: { dataBlog },
   };
@@ -53,7 +52,7 @@ const AddData = (props) => {
             Video Blog
           </label>
           <input
-            {...register("blogGambar", { required: true })}
+            {...register("blogVideo", { required: true })}
             type="url"
             className="form-control"
           />
@@ -148,6 +147,7 @@ const AdminBlog = (props) => {
                       <th scope="col">No.</th>
                       <th scope="col">Nama blogs</th>
                       <th scope="col">Gambar blogs</th>
+                      <th scope="col">Video blogs</th>
                       <th scope="col">Tanggal blogs</th>
                       <th scope="col">Deskripsi blogs</th>
                       <th scope="col">Penjelasan blogs</th>
@@ -160,6 +160,7 @@ const AdminBlog = (props) => {
                         <td>{nomor + 1}</td>
                         <td>{blog.blogNama}</td>
                         <td>{blog.blogGambar}</td>
+                        <td>{blog.blogVideo}</td>
                         <td>{blog.blogTanggal}</td>
                         <td>{blog.blogDeskripsi}</td>
                         <td>{blog.blogPenjelasan}</td>
