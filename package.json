@@ -17,10 +17,7 @@
     "react-hook-form": "^7.12.0"
   },
   "devDependencies": {
-    
+    "eslint": "7.31.0",
     "eslint-config-next": "11.0.1"
-  },
-  "rules":{
-    "@next/next/no-img-element" : "off"
   }
 }
