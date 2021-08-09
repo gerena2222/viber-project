@@ -9,7 +9,10 @@ const About = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="about-img">
-                <img src="https://placeimg.com/960/780/nature" alt="Image" />
+                <img
+                  src="https://res.cloudinary.com/kurogaze/image/upload/v1628492331/Opsi_3_srt0u6.png"
+                  alt="Image"
+                />
               </div>
             </div>
             <div className="col-lg-6">
