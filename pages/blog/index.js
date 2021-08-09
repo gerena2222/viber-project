@@ -27,8 +27,8 @@ const CardBlog = (props) => {
                 jika ingin melihat secara detail
               </p>
               <Link
-                href="/produk/[id]/[kode]"
-                as={`/produk/${props.id}/${props.blogNama
+                href="/blog/[id]/[kode]"
+                as={`/blog/${props.id}/${props.blogNama
                   .replace(/\s+/g, "-")
                   .toLowerCase()}`}
               >
