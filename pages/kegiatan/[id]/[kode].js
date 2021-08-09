@@ -45,6 +45,7 @@ const DetailEvent = (props) => {
                 </div>
                 <div className="single-bio-text">
                   <h3>Author Name</h3>
+                  <p>Neko-Neko Chan</p>
                 </div>
               </div>
               <div className="comment-form">
