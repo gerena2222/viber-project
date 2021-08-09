@@ -35,10 +35,10 @@ const DetailProduk = (props) => {
             <div className="col-lg-8">
               <div className="single-content">
                 <img src={props.produkGambar} />
-                <h2>Manfaat {props.produkNama}</h2>
+                <h2>{props.produkNama}</h2>
                 <p align="justify">{props.produkDeskripsi}</p>
-                <p>{props.produkManfaat}</p>
-                <p>{props.produkKhasiat}</p>
+                <p align="justify">{props.produkManfaat}</p>
+                <p align="justify">{props.produkKhasiat}</p>
               </div>
 
               <div className="single-bio">

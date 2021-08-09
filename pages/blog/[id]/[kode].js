@@ -37,7 +37,7 @@ const DetailBlog = (props) => {
               <div className="single-content">
                 <img src={props.blogGambar} />
                 <h2>{props.blogNama}</h2>
-                <p>{props.blogDeskripsi}</p>
+                <p align="justify">{props.blogDeskripsi}</p>
                 <iframe
                   width="100%"
                   height="480"
@@ -47,7 +47,7 @@ const DetailBlog = (props) => {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
-                <p>{props.blogPenjelasan}</p>
+                <p align="justify">{props.blogPenjelasan}</p>
               </div>
 
               <div className="single-bio">

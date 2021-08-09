@@ -34,9 +34,9 @@ const DetailEvent = (props) => {
             <div className="col-lg-8">
               <div className="single-content">
                 <img src={props.eventGambar} />
-                <h2>Manfaat {props.eventNama}</h2>
-                <p>{props.eventDeskripsi}</p>
-                <p>{props.eventPenjelasan}</p>
+                <h2>{props.eventNama}</h2>
+                <p align="justify">{props.eventDeskripsi}</p>
+                <p align="justify">{props.eventPenjelasan}</p>
               </div>
 
               <div className="single-bio">
