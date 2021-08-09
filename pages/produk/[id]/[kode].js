@@ -36,7 +36,7 @@ const DetailProduk = (props) => {
               <div className="single-content">
                 <img src={props.produkGambar} />
                 <h2>Manfaat {props.produkNama}</h2>
-                <p>{props.produkDeskripsi}</p>
+                <p align="justify">{props.produkDeskripsi}</p>
                 <p>{props.produkManfaat}</p>
                 <p>{props.produkKhasiat}</p>
               </div>
