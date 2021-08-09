@@ -62,7 +62,7 @@ const AddData = (props) => {
             Penjelasan event
           </label>
           <textarea
-            {...register("eventKhasiat", { required: false })}
+            {...register("eventPenjelasan", { required: false })}
             type="text"
             className="form-control"
           />
