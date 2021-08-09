@@ -2,7 +2,6 @@ import Link from "next/link";
 import prisma from "../../client.ts";
 import Heroku from "../../component/heroku-all";
 import MainLayout from "../../component/main-layout";
-import Image from "next/image";
 export async function getServerSideProps(contex) {
   const dataEvent = await prisma.kegiatan.findMany();
   return {
@@ -13,7 +12,7 @@ const CardEvent = (props) => {
   return (
     <div className="col-md-4 mb-4">
       <div className="card">
-        <Image src={props.eventGambar} className="img-fluid" />
+        <img src={props.eventGambar} className="img-fluid" />
         <div className="card-body">
           <h5 className="card-title">{props.eventNama}</h5>
           <div className="row">
