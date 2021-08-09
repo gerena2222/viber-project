@@ -21,8 +21,8 @@ const CardEvent = (props) => {
               {props.eventTanggal}
             </span>
             <Link
-              href="/produk/[id]/[kode]"
-              as={`/produk/${props.id}/${props.eventNama
+              href="/kegiatan/[id]/[kode]"
+              as={`/kegiatan/${props.id}/${props.eventNama
                 .replace(/\s+/g, "-")
                 .toLowerCase()}`}
             >
