@@ -37,14 +37,17 @@ const DetailProduk = (props) => {
                 <img src={props.produkGambar} />
                 <h2>Manfaat {props.produkNama}</h2>
                 <p>{props.produkDeskripsi}</p>
+                <p>{props.produkManfaat}</p>
+                <p>{props.produkKhasiat}</p>
               </div>
 
               <div className="single-bio">
                 <div className="single-bio-img">
-                  <img src="https://placeimg.com/30/30/people" />
+                  <img src="https://res.cloudinary.com/kurogaze/image/upload/v1628496772/neko-nekochan_eus1cw.png" />
                 </div>
                 <div className="single-bio-text">
                   <h3>Author Name</h3>
+                  <p>Neko-Neko Chan</p>
                 </div>
               </div>
               <div className="comment-form">
@@ -99,7 +102,7 @@ const DetailProduk = (props) => {
                   <div className="image-widget">
                     <a href="#">
                       <img
-                        src="https://placeimg.com/500/450/people"
+                        src="https://res.cloudinary.com/kurogaze/image/upload/v1628493963/telang1_xmvoia.jpg"
                         alt="Image"
                       />
                     </a>

@@ -16,15 +16,20 @@ const CardEvent = (props) => {
         <Image src={props.eventGambar} className="img-fluid" />
         <div className="card-body">
           <h5 className="card-title">{props.eventNama}</h5>
-          <p className="card-text">{props.eventTanggal}</p>
-          <Link
-            href="/event/[id]/[kode]"
-            as={`/event/${props.id}/${props.eventNama
-              .replace(/\s+/g, "-")
-              .toLowerCase()}`}
-          >
-            <a className="btn btn-primary">Lihat Detail</a>
-          </Link>
+          <div className="row">
+            <span className="card-text text-secondary">
+              <i className="far fa-clock me-2 mb-2"></i>
+              {props.eventTanggal}
+            </span>
+            <Link
+              href="/produk/[id]/[kode]"
+              as={`/produk/${props.id}/${props.eventNama
+                .replace(/\s+/g, "-")
+                .toLowerCase()}`}
+            >
+              <a className="btn btn-primary">Lihat Detail</a>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

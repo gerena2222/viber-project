@@ -36,11 +36,12 @@ const DetailEvent = (props) => {
                 <img src={props.eventGambar} />
                 <h2>Manfaat {props.eventNama}</h2>
                 <p>{props.eventDeskripsi}</p>
+                <p>{props.eventPenjelasan}</p>
               </div>
 
               <div className="single-bio">
                 <div className="single-bio-img">
-                  <img src="https://placeimg.com/30/30/people" />
+                  <img src="https://res.cloudinary.com/kurogaze/image/upload/v1628496772/neko-nekochan_eus1cw.png" />
                 </div>
                 <div className="single-bio-text">
                   <h3>Author Name</h3>
@@ -98,7 +99,7 @@ const DetailEvent = (props) => {
                   <div className="image-widget">
                     <a href="#">
                       <img
-                        src="https://placeimg.com/500/450/people"
+                        src="https://res.cloudinary.com/kurogaze/image/upload/v1628493963/telang1_xmvoia.jpg"
                         alt="Image"
                       />
                     </a>

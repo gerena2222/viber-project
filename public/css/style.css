@@ -13,6 +13,9 @@ body {
   left: 0;
 }
 
+.home-slider {
+  margin-top: 6rem;
+}
 /* Start Navbar */
 a,
 .nav-link {
@@ -40,7 +43,7 @@ ul {
   color: #ffa500;
 }
 .navbar-branded {
-  color: #0b6623;
+  color: #000000;
 }
 .navbar-toggler {
   background: #ffa500;
@@ -139,8 +142,7 @@ ul {
   background: #ffa500;
 }
 .content2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("https://placeimg.com/1278/780/nature");
+  background: url("https://res.cloudinary.com/kurogaze/image/upload/v1628493038/Pngtree_stylish_atmosphere_colored_triangle_abstract_211054_yhr79e.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

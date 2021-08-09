@@ -8,13 +8,13 @@ const Navbar = () => {
       <div className="container">
         <Link href="/">
           <a className="navbar-brand">
-            {/* <img
-              src="/static/logo_title.png"
+            <img
+              src="https://res.cloudinary.com/kurogaze/image/upload/v1628492331/Opsi_3_srt0u6.png"
               alt="logoImage"
               className="me-2"
               height="60px"
               width="auto"
-            /> */}
+            />
             <span className="navbar-branded">Viber.Id </span>
           </a>
         </Link>

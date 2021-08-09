@@ -42,15 +42,20 @@ const CardProduk = (props) => {
               </ul>
             </div>
           </div>
-          <p className="card-text">{props.produkTanggal}</p>
-          <Link
-            href="/produk/[id]/[kode]"
-            as={`/produk/${props.id}/${props.produkNama
-              .replace(/\s+/g, "-")
-              .toLowerCase()}`}
-          >
-            <a className="btn btn-primary">Lihat Detail</a>
-          </Link>
+          <div className="row">
+            <span className="card-text text-secondary">
+              <i className="far fa-clock me-2 mb-2"></i>
+              {props.produkTanggal}
+            </span>
+            <Link
+              href="/produk/[id]/[kode]"
+              as={`/produk/${props.id}/${props.produkNama
+                .replace(/\s+/g, "-")
+                .toLowerCase()}`}
+            >
+              <a className="btn btn-primary">Lihat Detail</a>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

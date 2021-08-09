@@ -47,11 +47,12 @@ const DetailBlog = (props) => {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
+                <p>{props.blogPenjelasan}</p>
               </div>
 
               <div className="single-bio">
                 <div className="single-bio-img">
-                  <img src="https://placeimg.com/30/30/people" />
+                  <img src="https://res.cloudinary.com/kurogaze/image/upload/v1628496772/neko-nekochan_eus1cw.png" />
                 </div>
                 <div className="single-bio-text">
                   <h3>Author Name</h3>
@@ -109,7 +110,7 @@ const DetailBlog = (props) => {
                   <div className="image-widget">
                     <a href="#">
                       <img
-                        src="https://placeimg.com/500/450/people"
+                        src="https://res.cloudinary.com/kurogaze/image/upload/v1628493963/telang1_xmvoia.jpg"
                         alt="Image"
                       />
                     </a>

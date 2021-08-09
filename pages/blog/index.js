@@ -17,19 +17,24 @@ const CardBlog = (props) => {
         <div className="card-body">
           <div className="row">
             <h5 className="card-title">{props.blogNama}</h5>
-            <p className="card-text">{props.blogTanggal}</p>
-            <p className="blog-post-text">
-              Berikut adalah video {props.blogNama}. Silahkan klik lanjutkan
-              jika ingin melihat secara detail
-            </p>
-            <Link
-              href="/blog/[id]/[kode]"
-              as={`/blog/${props.id}/${props.blogNama
-                .replace(/\s+/g, "-")
-                .toLowerCase()}`}
-            >
-              <a className="btn btn-primary">Lanjutkan</a>
-            </Link>
+            <div className="row">
+              <span className="card-text text-secondary">
+                <i className="far fa-clock me-2 mb-2"></i>
+                {props.blogTanggal}
+              </span>
+              <p className="blog-post-text">
+                Berikut adalah video {props.blogNama}. Silahkan klik lanjutkan
+                jika ingin melihat secara detail
+              </p>
+              <Link
+                href="/produk/[id]/[kode]"
+                as={`/produk/${props.id}/${props.blogNama
+                  .replace(/\s+/g, "-")
+                  .toLowerCase()}`}
+              >
+                <a className="btn btn-primary">Lihat Detail</a>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

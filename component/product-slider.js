@@ -31,22 +31,22 @@ const ProductSlider = (props) => {
         <div id="carousel0" className="owl-carousel owl-theme">
           <OwlTemplate
             namaProduk="Kelor"
-            gambarProduk="https://placeimg.com/200/150/nature"
+            gambarProduk="https://res.cloudinary.com/kurogaze/image/upload/v1628493962/kelor1_rg1u8z.jpg"
             deskripsiProduk="Lorem Ipsum Dolor saskagshgajsgjag"
           />
           <OwlTemplate
             namaProduk="Labu"
-            gambarProduk="https://placeimg.com/200/150/people"
+            gambarProduk="https://res.cloudinary.com/kurogaze/image/upload/v1628493963/labu1_cd5vzd.jpg"
             deskripsiProduk="Lorem Ipsum Dolor saskagshgajsgjag"
           />
           <OwlTemplate
             namaProduk="Beetroot"
-            gambarProduk="https://placeimg.com/200/150/tech"
+            gambarProduk="https://res.cloudinary.com/kurogaze/image/upload/v1628493963/beetroot1_gge7tu.jpg"
             deskripsiProduk="Lorem Ipsum Dolor saskagshgajsgjag"
           />
           <OwlTemplate
             namaProduk="Telang"
-            gambarProduk="https://res.cloudinary.com/kurogaze/image/upload/v1627501312/Risa_bjknma.svg"
+            gambarProduk="https://res.cloudinary.com/kurogaze/image/upload/v1628493963/telang1_xmvoia.jpg"
             deskripsiProduk="Lorem Ipsum Dolor saskagshgajsgjag"
           />
         </div>

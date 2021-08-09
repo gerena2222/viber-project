@@ -27,25 +27,38 @@ const Slider = () => {
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="https://res.cloudinary.com/kurogaze/image/upload/v1626442080/sample.jpg"
+              src="https://res.cloudinary.com/kurogaze/image/upload/v1628491752/telang_dluqse.jpg"
               className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://res.cloudinary.com/kurogaze/image/upload/v1626442080/sample.jpg"
+              src="https://res.cloudinary.com/kurogaze/image/upload/v1628491751/labu_jht5xq.jpg"
               className="d-block w-100"
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://res.cloudinary.com/kurogaze/image/upload/v1626442080/sample.jpg"
+              src="https://res.cloudinary.com/kurogaze/image/upload/v1628491751/beetroot_mqjk9v.jpg"
+              className="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="https://res.cloudinary.com/kurogaze/image/upload/v1628491751/kelor_fydcju.jpg"
               className="d-block w-100"
               alt="..."
             />

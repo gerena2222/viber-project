@@ -3,7 +3,12 @@ const HomeWidget = () => {
     <section className="container pt-1">
       <div className="row justify-content-center">
         <center>
-          <img src="https://placeimg.com/980/180/tech" alt="follow-me" />
+          <img
+            src="https://res.cloudinary.com/kurogaze/image/upload/v1628495743/ASASAS_nhauat.png"
+            alt="follow-me"
+            width="auto"
+            height="300"
+          />
         </center>
       </div>
     </section>

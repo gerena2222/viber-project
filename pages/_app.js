@@ -7,6 +7,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <link
+          rel="icon"
+          href="https://res.cloudinary.com/kurogaze/image/upload/v1628492331/Opsi_3_srt0u6.png"
+        />
         <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css" />
         <link
